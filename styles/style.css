@@ -6,16 +6,23 @@
     font-weight: 200;
 }
 
-.menu-bar{
+#menu-container{
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+#menu-bar{
     width: 100%;
     display: flex;
     flex-direction: space-between;
-    height: 50px;
-    margin: 10px;
-    padding: 0 20px;
+    height: 40px;
+    padding: 0 10px;
+    background-color: white;
 }
 
-.menu-bar img{
+#menu-bar img{
     height: 100%
 }
 
@@ -45,7 +52,7 @@ header a{
 
 .hero{
     background-image: url("../images/landing.jpg");
-    background-size: contain;
+    background-size: cover;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -67,7 +74,7 @@ header a{
     text-align: center;
 }
 
-.what h2{
+#what h2{
     text-align: center;
     padding: 50px 0 20px;
     font-weight: 600;
@@ -96,7 +103,7 @@ header a{
 }
 
 .card h3{
-    color: rgb(1, 189, 123);
+    color: rgb(26 177 106);
     font-weight: 600;
     padding: 5px;
 }
@@ -106,7 +113,7 @@ header a{
     text-align: center;
 }
 
-.green{
+#green{
     background-color: rgb(26 177 106);
     margin: auto;
     padding: 50px;
@@ -143,7 +150,7 @@ header a{
     justify-content: center;
 }
 
-.green h2{
+#green h2{
     color: white;
     text-decoration: underline;
     text-decoration-thickness: 2px;
